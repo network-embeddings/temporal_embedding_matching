@@ -16,7 +16,8 @@ learned low-dimensional embeddings.
 This script matches given two sets of embeddings even when the sets do not exactly match. 
 Input of this function is like this
 ```
-{key_1: embedding_vector_of_key_1],
+{
+key_1: embedding_vector_of_key_1],
 key_2: embedding_vector_of_key_2],
 key_3: embedding_vector_of_key_3],
 key_4: embedding_vector_of_key_4],
