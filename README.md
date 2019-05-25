@@ -1,6 +1,6 @@
 # temporal_embedding_matching
 
-Many embeddings alogorithms have randomness. Embedding results may be different even if actural cosine similiarty over the embeddins are similar due to stochastic nature.
+Many embeddings alogorithms have randomness. Embedding results may be different even if actural similiarty over the embeddins are similar due to stochastic nature.
 
 It can be big problem when we are dealing with temporal embeddings with incremental embedding. In order to compare embeddings from different time-periods, we must ensure that the vectors are aligned to the same coordinate axes.
 
