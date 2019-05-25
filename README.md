@@ -25,3 +25,7 @@ key_4: embedding_vector_of_key_4,
  ```
 If key's list of two embedding are not identical, function find overlapping keys. Aproximated rotation matrix
 with overlapping keys will be caluclated, and algined embeddings will be returned.
+
+Before align           |  After align
+:-------------------------:|:-------------------------:
+![](figure/before.png)  |  ![](figure/after.png)
