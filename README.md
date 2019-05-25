@@ -28,4 +28,4 @@ with overlapping keys will be caluclated, and algined embeddings will be returne
 
 Before align           |  After align
 :-------------------------:|:-------------------------:
-![](figure/before.png)  |  ![](figure/after.png)
+![](public/before.png)  |  ![](public/after.png)
