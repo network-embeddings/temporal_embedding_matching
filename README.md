@@ -14,7 +14,7 @@ learned low-dimensional embeddings.
 
 
 This script matches given two sets of embeddings even when the sets do not exactly match. 
-Input of this function is like this
+Input data struction of embedding is dict whose key is name of entity in data, value is embedding vector or entity.
 ```
 {
 key_1: embedding_vector_of_key_1,
@@ -23,3 +23,5 @@ key_3: embedding_vector_of_key_3,
 key_4: embedding_vector_of_key_4,
 }
  ```
+If key's list of two embedding are not identical, function find overlapping keys. Aproximated rotation matrix
+with overlapping keys will be caluclated, and algined embeddings will be returned.
