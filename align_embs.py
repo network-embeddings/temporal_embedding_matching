@@ -32,10 +32,10 @@ def align_two_embs(emb_to_align, emb_base):
 
 def align_list_of_embs(emb_list, emb_base):
     """
-    :param emb_to_align: list of embedding vectors to be align
+    :param emb_list: list of embedding vectors to be align
     :param emb_base: base embedding vectors
     :return:
-        list of aligned_embeddings of emb_to_align
+        list of aligned_embeddings 
     """
     common_keys = set.intersection(*[set(emb.keys()) for emb in emb_list])
     common_keys = list(common_keys.intersection(set(emb_base.keys())))
