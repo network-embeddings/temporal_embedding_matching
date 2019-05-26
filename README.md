@@ -29,3 +29,5 @@ with overlapping keys will be caluclated, and algined embeddings will be returne
 Before align           |  After align
 :-------------------------:|:-------------------------:
 ![](public/example_before.png)  |  ![](public/example_after.png)
+
+This figure show how aligning proces works with synthetic data. Embedding at t1 is artificially made, and embedding at t2 is orthgonal transformation of t1's embedding. After aligned, two embeddings are perpectly overlapped.
