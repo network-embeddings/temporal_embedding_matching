@@ -14,7 +14,7 @@ learned low-dimensional embeddings.
 
 
 This script matches given two sets of embeddings even when the sets do not exactly match. 
-Input data struction of embedding is dict whose key is name of entity in data, value is embedding vector or entity.
+Input data structure of embedding is dict whose key is name of entity in data, value is embedding vector or entity.
 ```
 {
 key_1: embedding_vector_of_key_1,
