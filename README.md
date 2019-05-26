@@ -43,5 +43,5 @@ Dependencies
 References
 ----------
 Hamilton, W. L., Leskovec, J., & Jurafsky, D. (2016). Diachronic word embeddings reveal statistical laws of semantic change. arXiv preprint arXiv:1605.09096.
-Zhang, Z. (1998), A Flexible New Technique for Camera Calibration (PDF), Microsoft Research Technical Report, 71
+Zhang, Z. (1998), A Flexible New Technique for Camera Calibration, Microsoft Research Technical Report, 71
 
