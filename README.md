@@ -31,3 +31,17 @@ Before align           |  After align
 ![](public/example_before.png)  |  ![](public/example_after.png)
 
 This figure show how aligning proces works with synthetic data. Embedding at t1 is artificially made, and embedding at t2 is orthgonal transformation of t1's embedding. After aligned, two embeddings are perpectly overlapped.
+
+
+
+Dependencies
+------------
+* Numpy 1.8.0
+
+
+
+References
+----------
+Hamilton, W. L., Leskovec, J., & Jurafsky, D. (2016). Diachronic word embeddings reveal statistical laws of semantic change. arXiv preprint arXiv:1605.09096.
+Zhang, Z. (1998), A Flexible New Technique for Camera Calibration (PDF), Microsoft Research Technical Report, 71
+
